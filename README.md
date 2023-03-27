@@ -4,7 +4,8 @@ a platform for generalization in rl
 
 ```
 cd Vizdoom_Generalization
-./export.sh
+./export_random.sh
+./export_static.sh
 ```
 
 That's it! WAD map files will be in `outputs` folder.
