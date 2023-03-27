@@ -3,8 +3,7 @@ a platform for generalization in rl
 ## Usage
 
 ```
-git clone --recurse-submodules https://github.com/agiantwhale/NavDoom.git
-cd NavDoom
+cd Vizdoom_Generalization
 ./export.sh
 ```
 
