@@ -8,7 +8,7 @@ cd Vizdoom_Generalization
 ./export_static.sh
 ```
 
-That's it! WAD map files will be in `outputs` folder.
+That's it! WAD map files will be in `outputs_random`  and  `outputs_static`folder.
 
 ## Game variables
 
