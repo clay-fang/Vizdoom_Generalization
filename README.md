@@ -10,12 +10,6 @@ cd Vizdoom_Generalization
 
 That's it! WAD map files will be in `outputs_random`  and  `outputs_static`folder.
 
-## Game variables
-
-0. Global reward
-1. Goal location - X coordinate
-2. Goal location - Y coordinate
-3. Goal location - Z coordinate
 
 ## Configuration
 
