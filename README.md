@@ -3,7 +3,7 @@
   <img width="460" src="https://github.com/clay-fang/Vizdoom_Generalization/blob/main/viz_g.png">
 </p>
 a platform for generalization in rl
-## Usage
+# Usage
 
 ```
 cd Vizdoom_Generalization
