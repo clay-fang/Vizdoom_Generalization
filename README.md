@@ -8,7 +8,9 @@ In the Vizdoom_Generalization environment, there are 3 different sizes of maps, 
 </p>
 
 In the Vizdoom_Generalization environment, two different task types are set: "random target location" and "fixed target location", provided that the initial location of the intelligence does not overlap with the target location of the task.  In each round, the map layout does not change and the agent appears randomly at the location of a white point in the overhead view. 
+
 In "randomized target location" the task target also appears at a random location of a white point. 
+
 In "target location fixation", the task target is fixed at the location of a white point. 
 
 ## Map
