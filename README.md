@@ -28,7 +28,7 @@ cd Vizdoom_Generalization
 
 ## Run
 
-run random agent in our static_9*9_0 train_map
+run random agent in our static_9x9_0 train_map
 
 ```train
 from vizdoomenv import VizdoomEnv       #导入封装类   
