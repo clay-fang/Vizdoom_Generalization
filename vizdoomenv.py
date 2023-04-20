@@ -30,7 +30,7 @@ class VizdoomEnv(gym.Env):
         # init game
         self.game = DoomGame()
         self.game.set_screen_resolution(ScreenResolution.RES_640X480)
-        self.scenarios_dir = os.path.join(os.path.dirname(__file__), 'outputs_'+level)
+        self.scenarios_dir = os.path.join(os.path.dirname(__file__), 'outputs_'+level+'/'+env_name.split('_')[0])
         self.game.load_config(os.path.join(self.scenarios_dir, env_name+f'_{idx}'+'.cfg'))
         self.game.set_window_visible(False)
         self.game.init()
