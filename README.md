@@ -39,6 +39,7 @@ for i in range(10):
     obs = env.reset()      #初始化环境
     while not done:
         action = random(n)     #随机动作
-        obs, reward, done, info = env.step(action) #与环境进行交互，返回第一视角图像obs，与对应奖励值reward。当回合结束时，返回done=True，反之为False。info包含调试时需要使用的信息。
+        next_obs, reward, done, info = env.step(action) #与环境进行交互，返回第一视角图像obs，与对应奖励值reward。当回合结束时，返回done=True，反之为False。info包含调试时需要使用的信息。
+        obs = next_obs 
 env.close()           #结束环境
 ```
