@@ -2,7 +2,7 @@
 
 a platform for generalization in rl
 
-In the Vizdoom_Generalization environment, there are 3 different sizes of maps, with a piece of wall as the basic unit, the sizes are 9*9, 11*11, and 13*13. The larger the map size, the more difficult the task is, the more significant the corresponding sparse reward problem is, and the more demanding the performance of the algorithm is. Under the same size and same task type, the training task set contains 50 maps and the test task set contains 10 maps.
+In the Vizdoom_Generalization environment, there are 3 different sizes of maps, with a piece of wall as the basic unit, the sizes are 9x9, 11x11, and 13x13. The larger the map size, the more difficult the task is, the more significant the corresponding sparse reward problem is, and the more demanding the performance of the algorithm is. Under the same size and same task type, the training task set contains 50 maps and the test task set contains 10 maps.
 
 <p align="center">
   <img width="460" src="https://github.com/clay-fang/Vizdoom_Generalization/blob/main/viz_g.png">
