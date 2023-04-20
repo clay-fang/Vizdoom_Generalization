@@ -32,8 +32,8 @@ run random agent in our static_9*9_0 train_map
 
 ```train
 from vizdoomenv import VizdoomEnv       #导入封装类   
-benchmark={'level':'static', 'size'='9_TRAIN', 'idx'=0}   #任务类型、地图尺寸及编号
-env = VizdoomEnv(benchmark['level'], benchmark['size'], benchmark[' idx '])  #创建环境
+benchmark={'level':'static', 'size':'9_TRAIN', 'idx':0}   #任务类型、地图尺寸及编号
+env = VizdoomEnv(benchmark['level'], benchmark['size'], benchmark['idx'])  #创建环境
 done = False
 for i in range(10):
     obs = env.reset()      #初始化环境
